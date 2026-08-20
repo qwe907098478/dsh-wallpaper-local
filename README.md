@@ -4,6 +4,14 @@
 
 > 📦 本目录即完整可安装插件包，`dsh plugin add` 直接安装。
 
+**右下角壁纸控制区（胶囊 + 一键电源开关）**
+
+<img src="docs/controls.png" alt="右下角壁纸控制区" width="240"/>
+
+**点击胶囊展开面板（切换壁纸 / 刷新 / 可读性调节）**
+
+<img src="docs/panel.png" alt="壁纸控制面板" width="260"/>
+
 ## 特性
 
 - **无需 Wallpaper Engine**：不读 Steam 库，只用普通文件，公司电脑可直接用。
