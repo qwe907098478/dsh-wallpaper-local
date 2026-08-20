@@ -1,0 +1,38 @@
+{
+  "name": "dsh-wallpaper-local",
+  "version": "1.0.0",
+  "description": "DSH 本地壁纸主题插件：不依赖 Wallpaper Engine，直接用本地图片 / 视频 / 内置渐变做应用背景，支持手动选择壁纸（选择持久化）、一键快捷开关、交叉淡化、压暗、毛玻璃与面板透明度，设置页一键配置并持久化。",
+  "type": "module",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [],
+      "immediately": true
+    }
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "cordis",
+    "wallpaper",
+    "background",
+    "video",
+    "image"
+  ],
+  "license": "MIT"
+}
