@@ -20,10 +20,9 @@
 ## 快速开始
 
 ```bash
-# 1. 安装（npm / GitHub / 本地路径均可）
-dsh plugin --profile web add dsh-wallpaper-local            # npm（发布后）
-dsh plugin --profile web add github:<user>/dsh-wallpaper-local # GitHub
-dsh plugin --profile web add /path/to/dsh-wallpaper-local   # 本机本地路径
+# 1. 安装（GitHub / 本地路径均可）
+dsh plugin --profile web add github:qwe907098478/dsh-wallpaper-local # GitHub
+dsh plugin --profile web add /path/to/dsh-wallpaper-local           # 本机本地路径
 
 # 2. 重启 dsh web 生效
 dsh web
